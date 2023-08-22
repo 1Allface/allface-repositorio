@@ -1,0 +1,47 @@
+body{
+  background-image: url("Imagem/emoji\ coração.jpg");
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+:root {
+  --cor-primaria-sim: rgb(75, 200, 138);
+  --cor-hover-sim: rgb(116, 158, 137);
+  --cor-secundaria-sim: rgb(27, 66, 50);
+  
+  --cor-primaria-talvez: rgb(61, 157, 246);
+  --cor-hover-talvez: rgb(116, 134, 158);
+  --cor-secundaria-talvez: rgb(31, 62, 88);
+
+  --cor-primaria-nao: rgb(200, 75, 75);
+  --cor-hover-nao: rgb(158, 116, 116);
+  --cor-secundaria-nao: rgb(58, 22, 22);
+}
+
+.btn {
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 18px;
+
+}
+.btn-SIM {
+  background-color: var(--cor-primaria-sim);
+  outline-color: none;
+  color: var(--cor-secundaria-sim);
+}
+.btn-TALVEZ {
+  background: var(--cor-primaria-talvez);
+  outline-color: none;
+  color: var(--cor-secundaria-talvez);
+}
+.btn-NAO {
+  background: var(--cor-primaria-nao);
+  outline-color: none;
+  color: var(--cor-secundaria-nao);
+}

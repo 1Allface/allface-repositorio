@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="ie=edge">
+        <title> Teste </title>
+    <tile> <h1> Quer namorar comigo? </h1> </tile>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Botões</h1>
+
+    <a href="https://youtu.be/Yfd2cQNQDOc"><button class="btn btn-SIM">Sim</button></a>
+    <a href=https://youtu.be/PTvTLvkiAbI><button class="btn btn-TALVEZ">Talvez</button></a>
+    <a href="https://youtu.be/pAaXzHJhA18?t=10"><button class="btn btn-NAO"onmouseover="moveButton(this)">Não</button></a>
+</body>
+   <script>
+       function moveButton(x) {
+           marginX = Math.floor(Math.random()*500)
+           marginY = Math.floor(Math.random()*500)
+   
+           x.style.margin = marginY.toString() + 'px ' + marginX.toString() + 'px'
+       }
+   </script>
+</html>
